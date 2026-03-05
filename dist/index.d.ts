@@ -1648,6 +1648,11 @@ export declare class SelectionManager {
      */
     private markCurrentSelectionDirty;
     /**
+     * Mark all visible viewport rows as dirty for redraw.
+     * Used for robust selection-overlay cleanup when exact row mapping is ambiguous.
+     */
+    private markViewportDirty;
+    /**
      * Update auto-scroll based on mouse Y position within canvas
      */
     private updateAutoScroll;
