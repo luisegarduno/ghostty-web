@@ -5,3 +5,6 @@ node_modules/
 
 # Note: dist/ and ghostty-vt.wasm are NOT ignored - they are committed
 # so that npm install from GitHub works without requiring Zig to build.
+
+# Riptide artifacts (cloud-synced)
+.humanlayer/tasks/
